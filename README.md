@@ -1,26 +1,14 @@
-# Nisha & Thushar — Wedding Website
+# Nisha & Thushar — Interactive South Indian Wedding Invitation
 
-A mobile-friendly, traditional Indian wedding invitation, hosted for free using GitHub Pages.
+This is a static website designed for GitHub Pages. Tap the envelope to open, flip traditional ritual cards, reveal video-frame photos, expand the event schedule, shower flower blessings, and replay the invitation.
 
-## Publish on GitHub Pages
+## Update your existing GitHub repository (Android phone)
 
-1. Sign in to https://github.com and create a **public** repository named `wedding-invitation` (do not initialize it with a README).
-2. Choose **Add file → Upload files** and upload `index.html` from this folder. Commit the change.
-3. Open **Settings → Pages** in your repository.
-4. Under **Build and deployment**, select **Deploy from a branch**. Select **main** and **/(root)**, then **Save**.
-5. Wait a few minutes and open `https://YOUR-USERNAME.github.io/wedding-invitation/` (replace `YOUR-USERNAME` with your GitHub username).
-6. Send that URL to family and friends via WhatsApp, SMS or email.
+1. Extract the ZIP in Files by Google.
+2. Open https://github.com/Naveen060798/wedding-invitation in Chrome and sign in.
+3. Open `index.html` in your repository. Tap the pencil (Edit) icon, select all existing code and replace it with the full contents of the NEW `index.html` file. Commit changes. (On mobile, enable Chrome → ⋮ → Desktop site if needed.)
+4. If you already uploaded the three images into `images/` with the same names, you do not need to upload them again. Otherwise upload `images/sunset.jpg`, `images/together.jpg`, and `images/candid.jpg` into the `images` folder in GitHub.
+5. Confirm Settings → Pages → Deploy from a branch → main → /(root).
+6. Open https://naveen060798.github.io/wedding-invitation/ after deployment. Refresh or open in an incognito tab if the old page is cached.
 
-## Customize
-
-Edit `index.html` in GitHub using the pencil icon, then **Commit changes**. Search for names, dates, venue, and family wording to edit. The page will redeploy automatically.
-
-## Important
-
-- GitHub Pages is public; anyone with the URL can view the event details.
-- The calendar download includes the wedding ceremony, not the reception.
-- The Share button uses the device's native share menu when available, and otherwise attempts to copy the link.
-- Verify names, family details and all timings against the printed invitation before distributing.
-
-## Photos from your videos
-Keep the `images` folder next to `index.html` when uploading to GitHub. The three selected video stills are included in `images/`. Upload the whole folder and its contents, not just the HTML file.
+The wedding details are taken from the earlier invitation. Verify every detail before sending. This site is public. The shower-blessings interaction is a local animation, not a stored RSVP or message system. No paid hosting or server is required.
